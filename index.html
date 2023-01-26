@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv8AAAAAAAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAMTNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv8AAAAAAAAAAMTNTv8AAAAAAAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAMTNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv8AAAAAAAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAMTNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv8AAAAAAAAAAAAAAADEzU7/SsOLDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAErDiw/EzU7/AAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAMTNTv9Kw4sPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASsOLD8TNTv8AAAAAAAAAAAAAAADEzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAIADAAC22wAAttsAAIAbAAC22wAAttsAAIADAAC22wAAttsAAIADAAC/+wAAv/sAAL/7AACAAwAA//8AAA==" rel="icon" type="image/x-icon" />
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+                
+            <input type="text" class="calc-numbers" id="calc-numbers" placeholder="0" />
+
+            <div class="calculator-buttons">
+                <button class='calc-button is-clear' onclick="cl()">C</button>
+                <button class="calc-button" onclick="del()">&larr;</button>
+                <button class="calc-button" onclick="appear('/')">&divide;</button>
+                <button class="calc-button" onclick="appear(7)">7</button>
+                <button class="calc-button" onclick="appear(8)">8</button>
+                <button class="calc-button" onclick="appear(9)">9</button>
+                <button class="calc-button" onclick="appear('*')">&times;</button>
+                <button class="calc-button" onclick="appear(4)">4</button>
+                <button class="calc-button" onclick="appear(5)">5</button>
+                <button class="calc-button" onclick="appear(6)">6</button>
+                <button class="calc-button" onclick="appear('-')">&minus;</button>
+                <button class="calc-button" onclick="appear(1)">1</button>
+                <button class="calc-button" onclick="appear(2)">2</button>
+                <button class="calc-button" onclick="appear(3)">3</button>
+                <button class="calc-button" onclick="appear('+')">&plus;</button>
+                <button class="calc-button is-zero" onclick="appear(0)">0</button>
+                <button class="calc-button" onclick="appear('.')">.</button>
+                <button class="calc-button is-equal" onclick="equal()" >=</button>
+            </div>
+        </div>
+    
+        <script src="app.js"></script>
+    </body>
+</html>
